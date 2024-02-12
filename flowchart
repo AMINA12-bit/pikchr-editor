@@ -1,0 +1,15 @@
+arrow right 200% "Object" "RSSI_values: List" "detectObject(): boolean" "localizeObject(): Location"
+
+arrow left 200% "Arduino" "program(): void"
+
+arrow up 200% "XBeeModule" "configureAsRouter(): void" "configureAsCoordinator(): void" "linkToArduino(arduino: Arduino): void"
+
+arrow down 200% "Antenna" "optimizePositioning(): void"
+
+arrow right 200% "Sensor" "strategicallyPlace(): void"
+
+arrow left 200% "Data" "intentionalIntroduction(): void"
+
+arrow up 200% "System" "xbeeModules: List" "arduino: Arduino" "sensors: List" "data: Data" "object: Object"
+
+arrow up 200% "Methodology" "configureXbeeModules(system: System): void" "optimizeAntennaPositioning(antenna: Antenna): void" "programArduinos(system: System): void" "linkXbeeToArduino(xbee: XBeeModule, arduino: Arduino): void" "placeSensors(system: System): void" "collectData(system: System): void" "detectObject(object: Object, system: System): boolean" "localizeObject(object: Object): Location"
